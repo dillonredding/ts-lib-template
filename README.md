@@ -1,11 +1,5 @@
 # TypeScript Library Template
 
-[![Node Package](https://img.shields.io/npm/v/{packageName})](https://npmjs.org/{packageName})
-[![Build Status](https://img.shields.io/github/workflow/status/{owner}/{repo}/{buildName})](https://github.com/{owner}/{repo?/actions/workflows/{fileName}.yaml)
-[![Code Coverage](https://img.shields.io/codecov/c/github/{owner}/{repo})](https://codecov.io/gh/{owner}/{repo})
-[![License](https://img.shields.io/github/license/{owner}/{repo})](LICENSE)
-[![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
 Use this repository as a template for other TypeScript repos.
 It includes boilerplate configuration and docs for:
 
@@ -14,8 +8,34 @@ It includes boilerplate configuration and docs for:
 - [Jest](https://jestjs.io/) with [TypeScript support](https://kulshekhar.github.io/ts-jest/)
 - [ESLint](https://eslint.org/) with [TypeScript support](https://typescript-eslint.io/)
 - [Prettier](https://prettier.io/)
-- [MIT license](https://choosealicense.com/licenses/mit/)
-- Changelog, code of conduct, and contribution guidelines
+- [MIT license](LICENSE)
+- [Changelog](CHANGELOG.md),
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Contribution guidelines](CONTRIBUTING.md)
+- [GitHub actions](https://docs.github.com/en/actions) for
+  [building](.github/workflows/build.yaml) and
+  [publishing](.github/workflows/npm-publish.yaml) an NPM package (be sure to
+  uncomment)
+
+The rest of this doc serves as a boilerplate README.md.
+
+---
+
+[![Node Package](https://img.shields.io/npm/v/{packageName})](https://npmjs.org/{packageName})
+[![Build Status](https://img.shields.io/github/workflow/status/{owner}/{repo}/{buildName})](https://github.com/{owner}/{repo?/actions/workflows/{fileName}.yaml)
+[![Code Coverage](https://img.shields.io/codecov/c/github/{owner}/{repo})](https://codecov.io/gh/{owner}/{repo})
+[![License](https://img.shields.io/github/license/{owner}/{repo})](LICENSE)
+[![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+## Installation
+
+```sh
+npm install {packageName}
+```
+
+## Usage
+
+<!-- usage docs here -->
 
 ## Contributing
 
