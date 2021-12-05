@@ -9,7 +9,7 @@ It includes boilerplate configuration and docs for:
 - [ESLint](https://eslint.org/) with [TypeScript support](https://typescript-eslint.io/)
 - [Prettier](https://prettier.io/)
 - [MIT license](LICENSE)
-- [Changelog](CHANGELOG.md),
+- [Changelog](CHANGELOG.md)
 - [Code of conduct](CODE_OF_CONDUCT.md)
 - [Contribution guidelines](CONTRIBUTING.md)
 - [GitHub actions](https://docs.github.com/en/actions) for
