@@ -1,7 +1,13 @@
-# TypeScript Repository Template
+# TypeScript Library Template
+
+[![Node Package](https://img.shields.io/npm/v/{packageName})](https://npmjs.org/{packageName})
+[![Build Status](https://img.shields.io/github/workflow/status/{owner}/{repo}/{buildName})](https://github.com/{owner}/{repo?/actions/workflows/{fileName}.yaml)
+[![Code Coverage](https://img.shields.io/codecov/c/github/{owner}/{repo})](https://codecov.io/gh/{owner}/{repo})
+[![License](https://img.shields.io/github/license/{owner}/{repo})](LICENSE)
+[![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 Use this repository as a template for other TypeScript repos.
-It includes boilerplate configuration for:
+It includes boilerplate configuration and docs for:
 
 - [NPM](https://www.npmjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -9,15 +15,9 @@ It includes boilerplate configuration for:
 - [ESLint](https://eslint.org/) with [TypeScript support](https://typescript-eslint.io/)
 - [Prettier](https://prettier.io/)
 - [MIT license](https://choosealicense.com/licenses/mit/)
+- Changelog, code of conduct, and contribution guidelines
 
-It also comes setup with NPM scripts:
+## Contributing
 
-- `build` – Builds the project by running the `clean`, `compile`, `lint`, and `format:check` scripts
-- `clean` – Removes the output directory
-- `compile` – Compiles TypeScript files with `tsc`
-- `format` – Formats files with Prettier
-- `format:check` – Checks files for correct formatting
-- `lint` – Lints the code with ESLint
-- `lint:fix` – Attempts to fix problems found by the linter
-- `test` – Runs tests (`*.spec.ts` files) with Jest
-- `test:watch` – Runs tests in watch mode
+If you would like to contribute anything from a bug report to a code change, see
+our [contribution guidelines](CONTRIBUTING.md).

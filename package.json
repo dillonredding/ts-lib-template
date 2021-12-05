@@ -1,7 +1,7 @@
 {
-  "name": "name",
+  "name": "{name}",
   "version": "0.1.0",
-  "description": "{{description}}",
+  "description": "{description}",
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run clean && npm run compile && npm run lint && npm run format:check",
@@ -16,13 +16,13 @@
   },
   "author": "{{author}}",
   "license": "MIT",
-  "homepage": "https://github.com/{{org-or-user}}/{{repo-name}}#readme",
+  "homepage": "https://github.com/{owner}/{repo}#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{org-or-user}}/{{repo-name}}.git"
+    "url": "git+https://github.com/{owner}/{repo}.git"
   },
   "bugs": {
-    "url": "https://github.com/{{org-or-user}}/{{repo-name}}/issues"
+    "url": "https://github.com/{owner}/{repo}/issues"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
